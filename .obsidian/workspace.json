@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Working With Raspberry Pi.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Working With Raspberry Pi"
+              "title": "Home"
             }
           }
         ]
@@ -168,11 +168,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8a20e1f1ad1651d3",
+  "active": "1d712af8e1d7d779",
   "lastOpenFiles": [
-    "Home.md",
-    "Deploying .NET App on Raspberry Pi.md",
+    "Passwordless SSH (Key-Based Authentication).md",
     "Working With Raspberry Pi.md",
+    "Passwordless SSH / Key-Based Authentication.md",
+    "Home.md",
+    "Passwordless SSH ",
+    "Deploying .NET App on Raspberry Pi.md",
     "Deploying .NET App.md",
     "Working with VM Debian 12.md",
     "Mounting File.md",

@@ -24,7 +24,7 @@ Network bridging is needed so that the VM can have its own IP. It works by addin
 1. Identify the interface of the IP address (e.g. eno1, eth0) using `ip a`
 2. Configure netplan for bridging
 	- Go to /etc/netplan to find the netplan configuration plan (.yaml)
-	- (optional) make a backup of the current netplan
+	- make a backup of the current netplan
 		`sudo cp /etc/netplan/your-config-file.yaml /etc/netplan/your-config-file.yaml.bak`
 	- Edit the configuration plan. Example:
 ```bash
@@ -46,7 +46,8 @@ network:
 ```
 
 3. Apply the new network configuration using `sudo netplan apply`. 
-4. Verify that bridge interface has IP address with `ip a show br0`
+4. Make sure host is using the netplan on the Wired Connections options
+5. Verify that bridge interface has IP address with `ip a show br0`
 
 # Creating The Headless Debian 12 Virtual Machine
 ---

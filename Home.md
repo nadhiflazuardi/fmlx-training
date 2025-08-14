@@ -3,7 +3,8 @@
 [[Working With Raspberry Pi]]
 [[Mounting File System from Other Computer]]
 [[Intro to CICD]]
-
+[[Communication]]
+[[IPC]]
 ### Others
 [[Installing Linux]]
 [[Set Up Local NuGet Repository]]

@@ -1,0 +1,5 @@
+- There are client, invoker, command, concrete command, and receiver
+- Receiver is the guy who actually knows how to do the job requested by client
+- Command is an interface implemented by concrete commands. In its simplest form, there is only Execute method in it, but we can also add other things like Undo to cancel the latest command, or Store and Load to re-do commands in case there is a crash
+- Concrete command stores a reference of a receiver. When its Execute method is being called, it uses the receiver object to do the job
+- Invoker is the dude who can store command(s) you give to him through SetCommand method. Later when you actually want something, just tell him and he will execute the command

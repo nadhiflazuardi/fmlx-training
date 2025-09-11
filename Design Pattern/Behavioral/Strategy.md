@@ -1,0 +1,2 @@
+- Common algorithms that want to do the same thing in different ways (called strategy) implement a common interface
+- Main logic have a reference to a class that implements the interface. Logic can then execute a strategy regardless of the concrete implementation.

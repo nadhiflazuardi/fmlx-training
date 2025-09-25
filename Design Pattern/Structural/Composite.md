@@ -1,3 +1,5 @@
+>**The Composite Pattern** allows you to compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.
+
 Works only when core model of thee app is like a tree structure
 
 Each leaf and branch implement the same interface
